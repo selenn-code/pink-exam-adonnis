@@ -1,0 +1,7 @@
+input::placeholder {
+    color: #FF7E7E;
+}
+
+@view-transition {
+  navigation: auto;
+}

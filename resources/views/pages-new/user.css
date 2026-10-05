@@ -1,0 +1,47 @@
+.luarpink {
+    margin: 65px auto;
+    width: 669px;
+    height: 725px;
+    background-color: #FF7E7E;
+    border-radius: 20px;
+    padding: 50px;
+}
+.user-header {
+    display: flex;
+    flex-direction: row;
+}
+
+.username {
+    font-weight: bold;
+    color: #FF7E7E;
+    background-color: #FFEBEB;
+    width: 491px;
+    text-align: center;
+    padding-top: 40px;
+    font-size: 48px;
+    border-radius: 20px;
+}
+
+.nilai {
+    background-color: #663C3C;
+    color: #FF7E7E;
+    width: 173px;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: bolder;
+    border-radius: 20px;
+}
+
+.mapel {
+    background-color: #FFEBEB;
+    color: #FF7E7E;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: bolder;
+    width: 491px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 28px;
+}

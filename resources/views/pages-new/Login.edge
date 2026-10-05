@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="homepage.css">
+</head>
+
+<body style="background-color: #FF7E7E;
+font-family: Arial, Helvetica, sans-serif;
+padding: 60px;">
+
+    <div class="semuanya" style="
+text-align: center;
+width: 791px;
+height: 848px;
+background-color: white;
+border-radius: 100px;
+margin: 0 auto;
+padding-top: 60px;
+padding-bottom: 50px;
+padding-left: 5px;
+padding-right: 5px;">
+
+
+
+        <div class="header" style="
+    background-color: #FF7E7E;
+    width: 687px;
+    height: 156px;
+    margin: 0 auto;
+    border-radius: 20px;
+    padding-top: 30px;">
+            <table cellpadding="0px" class="kotakputihlatar" style="margin: 0 auto;">
+
+                <tr class="heading" cellpadding="0px">
+                    <td>
+                        <p style="color: white;
+                    font-size: 48px;
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-weight: bold;
+                    width: 210px;
+                    height: 48px;
+                    margin: 0px;">Welcome</p>
+                    </td>
+
+                    <td>
+                        <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M30 20V10H20" stroke="white" stroke-width="9" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path
+                                d="M45 20H15C12.2386 20 10 22.2386 10 25V45C10 47.7614 12.2386 50 15 50H45C47.7614 50 50 47.7614 50 45V25C50 22.2386 47.7614 20 45 20Z"
+                                stroke="white" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M5 35H10" stroke="white" stroke-width="9" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path d="M50 35H55" stroke="white" stroke-width="9" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path d="M37.5 32.5V37.5" stroke="white" stroke-width="9" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path d="M22.5 32.5V37.5" stroke="white" stroke-width="9" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                    </td>
+                </tr>
+
+
+            </table>
+
+            <p style="
+        color: white;
+        font-size: 48px;
+        width: 431px;
+        height: 56px;
+        padding: 0px;
+        margin: 0px;
+        font-weight: bold;
+        margin: 0 auto;">U've met me, ik.</p>
+
+        </div>
+
+        <div style="padding-bottom: 50px;"></div>
+
+        <div class="tombolan">
+            <!-- buat tombol login & regist -->
+            <table style="
+    text-align: center;
+    margin: 0 auto;
+    background-color: #FF7E7E;
+    border-radius: 20px;
+    padding: 5px;">
+                <tr>
+                    <td>
+                        <button
+                        style="background-color: white;
+                color: #FF7E7E;
+                border: none;
+                border-radius: 20px;
+                font-size: 48px;
+                font-weight: bold;
+                width: 289px;
+                height: 112px;
+                cursor: pointer;"><a href="Login.html" style="text-decoration: none; color: #FF7E7E;">Login</a></button>
+                    </td>
+
+                    <td>
+                        <button onclick="register()"
+                style="
+                background-color: #FF7E7E;
+                color: white;
+                border: none;
+                width: 381px;
+                height: 112px;
+                font-size: 48px;
+                font-weight: bold;
+                border-radius: 20px;
+                cursor: pointer;">Register</a></button>
+                    </td>
+
+                </tr>
+            </table>
+
+            <div style="padding-bottom: 30px;"></div>
+
+            <table style="
+        text-align: center;
+        margin: 0 auto;
+        background-color: #FF7E7E;
+        border-radius: 20px;
+        padding: 5px;">
+
+                <tr>
+                    <td>
+                        <form>
+                            <label style="background-color: #FF7E7E;
+                            color: white;
+                            border: none;
+                            border-radius: 20px;
+                            font-size: 48px;
+                            font-weight: bold;
+                            width: 289px;
+                            height: 112px;
+                            padding-left: 30px;
+                            padding-right: 20px;">Username
+                            </label>
+                        </form>
+                    </td>
+
+                    <td>
+                        <form>
+                            <input style="
+                        background-color: white;
+                        color: #FF7E7E;
+                        border: none;
+                        width: 381px;
+                        height: 112px;
+                        font-size: 48px;
+                        font-weight: bold;
+                        border-radius: 20px;
+                        text-align: center;" type="text" name="username" placeholder="Tell me ur usn">
+                        </form>
+                    </td>
+
+                </tr>
+            </table>
+
+            <div style="padding-bottom: 30px;"></div>
+
+            <table style="
+        text-align: center;
+        margin: 0 auto;
+        background-color: #FF7E7E;
+        border-radius: 20px;
+        padding: 5px;">
+
+                <tr>
+
+                    <td>
+                        <form>
+                            <label style="background-color: #FF7E7E;
+                            color: white;
+                            border: none;
+                            border-radius: 20px;
+                            font-size: 48px;
+                            font-weight: bold;
+                            width: 289px;
+                            height: 112px;
+                            padding-left: 30px;
+                            padding-right: 20px;">Password
+                            </label>
+                        </form>
+                    </td>
+
+                    <td>
+                        <form>
+                            <input type="password" style="
+                        background-color: white;
+                        color: #FF7E7E;
+                        border: none;
+                        width: 381px;
+                        height: 112px;
+                        font-size: 48px;
+                        font-weight: bold;
+                        border-radius: 20px;
+                        text-align: center;" type="text" name="username" placeholder="Hide ur pw">
+                        </form>
+                    </td>
+
+                </tr>
+
+            </table>
+
+        </div>
+
+        <div style="padding-bottom: 60px;"></div>
+
+        <button type="submit" style="
+        width: 295px;
+        height: 88px;
+        background-color: #FF7E7E;
+        color: white;
+        border: none;
+        border-radius: 20px;
+        font-size: 48px;
+        font-weight: bold;
+        cursor: pointer;"><a href="mapel.htm" style="color: white; text-decoration: none;">Login</a></button>
+
+    </div>
+
+    <p style="text-align: center; color: white; font-weight: bold;">Stop playin the button >:( </p>
+
+</body>
+
+</html>
