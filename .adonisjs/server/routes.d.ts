@@ -11,12 +11,11 @@ export type ScannedRoutes = {
   GET: {
     'home': { paramsTuple?: []; params?: {} }
     'ujians.login': { paramsTuple?: []; params?: {} }
+    'ujians.register': { paramsTuple?: []; params?: {} }
   }
   HEAD: {
     'home': { paramsTuple?: []; params?: {} }
     'ujians.login': { paramsTuple?: []; params?: {} }
-  }
-  POST: {
     'ujians.register': { paramsTuple?: []; params?: {} }
   }
 }
