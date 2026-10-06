@@ -9,8 +9,12 @@ export default class UjiansController {
 
     async register({ view }: HttpContext) {
     
+        // Logika buat ngesave user
 
     return view.render('pages-new/Register', {  })
+    }
+    async registerPost() {
+        return 'ok';
     }
 }
 
