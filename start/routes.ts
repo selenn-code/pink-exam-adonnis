@@ -14,6 +14,7 @@ import router from '@adonisjs/core/services/router'
 router.on('/').render('pages/home').as('home')
 router.get('login', [controllers.Ujians, 'login'])
 router.get('register', [controllers.Ujians, 'register'])
+router.post('register', [controllers.Ujians, 'registerPost'])
 
 // router
 //   .group(() => {

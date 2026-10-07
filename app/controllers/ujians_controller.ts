@@ -13,8 +13,8 @@ export default class UjiansController {
 
     return view.render('pages-new/Register', {  })
     }
-    async registerPost() {
-        return 'ok';
+    async registerPost ({ view }: HttpContext) {
+        return view.render('pages-new/successed', {  })
     }
 }
 

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -75,7 +76,7 @@ padding-right: 5px;">
         padding: 0px;
         margin: 0px;
         font-weight: bold;
-        margin: 0 auto;">U've met me, ik.</p>
+        margin: 0 auto;">Have u meet me?</p>
 
         </div>
 
@@ -83,17 +84,19 @@ padding-right: 5px;">
 
         <div class="tombolan">
             <!-- buat tombol login & regist -->
-            <table style="
+            <div style="
     text-align: center;
     margin: 0 auto;
     background-color: #FF7E7E;
     border-radius: 20px;
-    padding: 5px;">
-                <tr>
-                    <td>
-                        <button
-                        style="background-color: white;
-                color: #FF7E7E;
+    padding: 8px;
+    width: 680px;
+    display: flex;
+    flex-direction:row;
+    justify-content:center;">
+
+                        <button style="background-color: #FFF;
+                color: white;
                 border: none;
                 border-radius: 20px;
                 font-size: 48px;
@@ -104,34 +107,36 @@ padding-right: 5px;">
                     </td>
 
                     <td>
-                        <button
-                style="
+                        <button style="
                 background-color: #FF7E7E;
-                color: white;
+                color: #FF7E7E;
                 border: none;
                 width: 381px;
                 height: 112px;
                 font-size: 48px;
                 font-weight: bold;
                 border-radius: 20px;
-                cursor: pointer;"><a href="register" style="text-decoration: none; color: white;">Register</a></button>
-                    </td>
-
-                </tr>
-            </table>
+                cursor: pointer;"><a href="register" style="text-decoration: none; color: #fff;">Register</a></button>
+            </div>
 
             <div style="padding-bottom: 30px;"></div>
 
-            <table style="
+            {{--  <form action="register" method="POST">
+
+                        {{ csrfField() }}  --}}
+            <div style="
         text-align: center;
         margin: 0 auto;
         background-color: #FF7E7E;
         border-radius: 20px;
-        padding: 5px;">
-
-                <tr>
-                    <td>
-                        <form>
+        width: 680px;
+        padding: 8px;
+        height: 118px;
+        display: flex;
+        flex-direction:row;
+        justify-content:center;">
+        
+                        
                             <label style="background-color: #FF7E7E;
                             color: white;
                             border: none;
@@ -139,15 +144,12 @@ padding-right: 5px;">
                             font-size: 48px;
                             font-weight: bold;
                             width: 289px;
-                            height: 112px;
                             padding-left: 30px;
-                            padding-right: 20px;">Username
+                            padding-right: 20px;
+                            margin-top: 30px;">Username
                             </label>
-                        </form>
-                    </td>
 
-                    <td>
-                        <form>
+
                             <input style="
                         background-color: white;
                         color: #FF7E7E;
@@ -157,26 +159,20 @@ padding-right: 5px;">
                         font-size: 48px;
                         font-weight: bold;
                         border-radius: 20px;
-                        text-align: center;" type="text" name="username" placeholder="Tell me ur usn">
-                        </form>
-                    </td>
+                        text-align: center;" type="text" name="username" placeholder="Insert ur usn">
 
-                </tr>
-            </table>
+            </div>
 
             <div style="padding-bottom: 30px;"></div>
 
-            <table style="
+            <div style="
         text-align: center;
         margin: 0 auto;
         background-color: #FF7E7E;
         border-radius: 20px;
-        padding: 5px;">
-
-                <tr>
-
-                    <td>
-                        <form>
+        padding: 8px;
+        width: 680px">
+                        
                             <label style="background-color: #FF7E7E;
                             color: white;
                             border: none;
@@ -188,11 +184,7 @@ padding-right: 5px;">
                             padding-left: 30px;
                             padding-right: 20px;">Password
                             </label>
-                        </form>
-                    </td>
 
-                    <td>
-                        <form>
                             <input type="password" style="
                         background-color: white;
                         color: #FF7E7E;
@@ -203,31 +195,28 @@ padding-right: 5px;">
                         font-weight: bold;
                         border-radius: 20px;
                         text-align: center;" type="text" name="username" placeholder="Hide ur pw">
-                        </form>
-                    </td>
 
-                </tr>
-
-            </table>
+                        </div>
 
         </div>
 
         <div style="padding-bottom: 60px;"></div>
 
-        <button type="submit" style="
-        width: 295px;
-        height: 88px;
-        background-color: #FF7E7E;
-        color: white;
-        border: none;
-        border-radius: 20px;
-        font-size: 48px;
-        font-weight: bold;
-        cursor: pointer;"><a href="mapel.htm" style="color: white; text-decoration: none;">Login</a></button>
+            <button type="submit" style="
+            width: 295px;
+            height: 88px;
+            background-color: #FF7E7E;
+            color: white;
+            border: none;
+            border-radius: 20px;
+            font-size: 48px;
+            font-weight: bold;
+            cursor: pointer;">Login</button>
+        </form>
 
     </div>
 
-    <p style="text-align: center; color: white; font-weight: bold;">Stop playin the button >:( </p>
+    <p style="text-align: center; color: white; font-weight: bold;"> Check ur pw to make sure nothin' went wron' </p>
 
 </body>
 

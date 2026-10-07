@@ -7,6 +7,7 @@ export type ScannedRoutes = {
     'home': { paramsTuple?: []; params?: {} }
     'ujians.login': { paramsTuple?: []; params?: {} }
     'ujians.register': { paramsTuple?: []; params?: {} }
+    'ujians.register_post': { paramsTuple?: []; params?: {} }
   }
   GET: {
     'home': { paramsTuple?: []; params?: {} }
@@ -17,6 +18,9 @@ export type ScannedRoutes = {
     'home': { paramsTuple?: []; params?: {} }
     'ujians.login': { paramsTuple?: []; params?: {} }
     'ujians.register': { paramsTuple?: []; params?: {} }
+  }
+  POST: {
+    'ujians.register_post': { paramsTuple?: []; params?: {} }
   }
 }
 declare module '@adonisjs/core/types/http' {
